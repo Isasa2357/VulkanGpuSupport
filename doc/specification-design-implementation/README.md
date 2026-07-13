@@ -13,9 +13,15 @@
 ## 文書一覧
 
 1. [01_Specification.md](01_Specification.md) — 製品仕様、要求、非目標、受入条件
-2. [02_Architecture_Design.md](02_Architecture_Design.md) — モジュール、公開API、所有権、同期、スレッド安全性、依存統合
+2. [02_Architecture_Design.md](02_Architecture_Design.md) — 詳細設計の索引と横断原則
+   - [02A_Architecture_Core.md](02A_Architecture_Core.md) — 全体構造、依存、Loader、Context、Queue、Sync、Command
+   - [02B_Resources_Transfer.md](02B_Resources_Transfer.md) — Resource、State、Barrier、Descriptor、Shader、Upload
+   - [02C_Pool_Processing.md](02C_Pool_Processing.md) — Pool、Lease、Deferred Release、Processing、resize/YUV規約
+   - [02D_Threading_Integration.md](02D_Threading_Integration.md) — Threading、Diagnostics、Device lost、上位統合、禁止設計、最小例
 3. [03_Implementation_Plan.md](03_Implementation_Plan.md) — PR単位の実装手順、テスト、CI、リリース条件
 4. [04_Codex_Implementation_Brief.md](04_Codex_Implementation_Brief.md) — Codexへそのまま渡せる実装契約
+
+設計書はGitHubでの閲覧性とCodexへ段階投入しやすい粒度を考慮して4分冊しています。`02_Architecture_Design.md`だけでなく、`02A`〜`02D`をすべて読んだ内容が設計書の正本です。
 
 ## 固定済みの主要判断
 
