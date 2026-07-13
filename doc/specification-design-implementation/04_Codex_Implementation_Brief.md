@@ -10,8 +10,14 @@
 
 1. `doc/specification-design-implementation/01_Specification.md`
 2. `doc/specification-design-implementation/02_Architecture_Design.md`
-3. `doc/specification-design-implementation/03_Implementation_Plan.md`
-4. 本文書
+3. `doc/specification-design-implementation/02A_Architecture_Core.md`
+4. `doc/specification-design-implementation/02B_Resources_Transfer.md`
+5. `doc/specification-design-implementation/02C_Pool_Processing.md`
+6. `doc/specification-design-implementation/02D_Threading_Integration.md`
+7. `doc/specification-design-implementation/03_Implementation_Plan.md`
+8. 本文書
+
+`02_Architecture_Design.md`は索引です。設計の実装契約は`02A`〜`02D`の4分冊すべてを合わせた内容なので、対象Phaseだけを推測で読み飛ばさないでください。
 
 仕様とVulkan Specificationが矛盾する場合はVulkan Specificationを優先し、文書・testを修正してください。勝手に仕様を省略しないでください。
 
